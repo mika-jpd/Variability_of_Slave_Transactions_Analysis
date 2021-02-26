@@ -24,9 +24,8 @@ PC1: (33.6% variability)
 
 *Tentative Interpretation: 
 
-  The first PCA seems to confirm our intuitions that the more slaves are bought, the higher the purchasing cost (it however does not match our intuitions that humans are tradeable goods). The price increases when slaves are bought and when numerous are bought at once. We can see that while both the number of adult slaves and the number of slaves are significantly weighted variables, the number of child slaves seems to hold less significant weight in increasing the final price than the other two. This can be explained by the fact that adult slaves were deemed more valuable since they were stronger and more skilled and thus play a larger role in determining the price. 
-  
-	We can see the correlation between the number of adult slaves bought, number of slaves purchased, and the price of the purchase in the biplot which shows that the arrows of all three variables move in the same direction.
+The first PCA seems to confirm our intuitions that the more slaves are bought, the higher the purchasing cost (it however does not match our intuitions that humans are tradeable goods). The price increases when slaves are bought and when numerous are bought at once. We can see that while both the number of adult slaves and the number of slaves are significantly weighted variables, the number of child slaves seems to hold less significant weight in increasing the final price than the other two. This can be explained by the fact that adult slaves were deemed more valuable since they were stronger and more skilled and thus play a larger role in determining the price. 
+We can see the correlation between the number of adult slaves bought, number of slaves purchased, and the price of the purchase in the biplot which shows that the arrows of all three variables move in the same direction.
 
 ```
 PC2: (25% variability)
@@ -40,9 +39,8 @@ PC2: (25% variability)
 
 *Tentative* Interpretation:
 
-	Since interest rate and discount rates measure the same thing, that both are both are identically weighted and that their arrows in the biplot point in the exact same direction makes sense. 
-  
-	The slight negative weights associated to the number of child slaves purchased and the total number of slaves purchased makes sense since the number of slaves bought would increase as the number of child slaves are bought, we cannot make any inference about both variable’s relationships with each other and the other variables.
+Since interest rate and discount rates measure the same thing, that both are both are identically weighted and that their arrows in the biplot point in the exact same direction makes sense. The slight negative weights associated to the number of child slaves purchased and the total number of slaves purchased makes sense since the number of slaves bought would increase as the number of child slaves are bought, we cannot make any inference about both variable’s relationships with each other and the other variables.
+
 ```
 PC3: (13% variability explained)
   •	Strong positive weights to:
@@ -67,7 +65,6 @@ PC4: (12% variability)
 *Tentative* Interpretation: 
 
 The dataset was taken from a paper which argued that there was not a significant correlation between the news between 1856 and 1861. In previous PCAs, the date was given little variability. However, from PCA4 we can infer that the Year was responsible for 12% of the total variability. As argued in the paper, extreme years (ie. 1860 and 1861), not monthly news had significant effects on the price of slavery as southern farmers became increasingly anxious by the possibility of a war between the North and the South. However, Principal Component Analysis seems to contest this conclusion. It shows that other variables like the number of slaves bought, the number of adults bought, and the age of slaves varied in the same way as the price. These appear to be the standard variables that drive transaction prices. The year was given little weight in PC1 in which the price was highly weighted and thus seems to vary independently of all the variables that appear to be related to the price of the transaction. 
-
 
 *Tentative* Conclusion:
 The PCA analysis is far from conclusive but does seem to show that slave purchases prices varied in the most part due to variables such as the number bought, and the age of slaves bought. The year represents a tenth of the variability but varies alone. Thus, it seems to not have had a significant impact on slave prices.
