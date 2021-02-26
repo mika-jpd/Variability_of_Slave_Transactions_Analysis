@@ -6,7 +6,7 @@ The dataset used details the financial records of over 16,000 New Orleans slave 
 
 Link to dataset: https://corgis-edu.github.io/corgis/csv/slavery/
 
-##Tentative Analysis:
+##*Tentative* Analysis:
 *Note: I have refrained from commenting on the signs associated to difference variables in the principal components because these are completely insignificant. My code run on another computer could give inverse signs because principal components found are unique up to a sign. We can, however, comment on which variables have inverse signs.
 
 ```
@@ -22,7 +22,7 @@ PC1: (33.6% variability)
     o	Interest Rate (0.098320283)
 ```
 
-*Tentative Interpretation: 
+*Tentative* Interpretation: 
 
 The first PCA seems to confirm our intuitions that the more slaves are bought, the higher the purchasing cost (it however does not match our intuitions that humans are tradeable goods). The price increases when slaves are bought and when numerous are bought at once. We can see that while both the number of adult slaves and the number of slaves are significantly weighted variables, the number of child slaves seems to hold less significant weight in increasing the final price than the other two. This can be explained by the fact that adult slaves were deemed more valuable since they were stronger and more skilled and thus play a larger role in determining the price. 
 We can see the correlation between the number of adult slaves bought, number of slaves purchased, and the price of the purchase in the biplot which shows that the arrows of all three variables move in the same direction.
