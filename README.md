@@ -1,4 +1,4 @@
-# Slave Price Analysis with PCA
+# Case Study on the Variability of Slave Transactions
 
 ## Table of Contens
 * [Description](#description)
