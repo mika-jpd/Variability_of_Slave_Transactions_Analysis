@@ -7,7 +7,7 @@
 * [*Tentative* Interpretation](#tentative-interpretation)
 * [*Tentative* Conclusion](#tentative-conclusion)
 
-##Description
+## Description
 I script that uses the Principal Component Analysis' dimension reduction to identify variability in the characteristics of New Orleans slave sales between 1856 and 1861 in the US. I wrote this script to help out in a friend's history project.
 
 ## Dataset
