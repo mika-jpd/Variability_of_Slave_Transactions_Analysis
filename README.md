@@ -1,12 +1,12 @@
 # Slave-Price-Analysis-with-PCA
 I script that uses the Principal Component Analysis' dimension reduction to identify the causes of slave price variability in the US.
 
-##Dataset
+## Dataset
 The dataset used details the financial records of over 16,000 New Orleans slave sales between 1856 and 1861. This dataset was first used in “Betting on Secession: Quantifying Political Events Surrounding Slavery and the Civil War.” (2016) by Calomiris, Charles W. and Jonathan Pritchett and published in American Economic Review. 
 
 Link to dataset: https://corgis-edu.github.io/corgis/csv/slavery/
 
-##*Tentative* Analysis:
+## *Tentative* Analysis:
 *Note: I have refrained from commenting on the signs associated to difference variables in the principal components because these are completely insignificant. My code run on another computer could give inverse signs because principal components found are unique up to a sign. We can, however, comment on which variables have inverse signs.
 
 ```
@@ -66,5 +66,5 @@ PC4: (12% variability)
 
 The dataset was taken from a paper which argued that there was not a significant correlation between the news between 1856 and 1861. In previous PCAs, the date was given little variability. However, from PCA4 we can infer that the Year was responsible for 12% of the total variability. As argued in the paper, extreme years (ie. 1860 and 1861), not monthly news had significant effects on the price of slavery as southern farmers became increasingly anxious by the possibility of a war between the North and the South. However, Principal Component Analysis seems to contest this conclusion. It shows that other variables like the number of slaves bought, the number of adults bought, and the age of slaves varied in the same way as the price. These appear to be the standard variables that drive transaction prices. The year was given little weight in PC1 in which the price was highly weighted and thus seems to vary independently of all the variables that appear to be related to the price of the transaction. 
 
-*Tentative* Conclusion:
+## *Tentative* Conclusion:
 The PCA analysis is far from conclusive but does seem to show that slave purchases prices varied in the most part due to variables such as the number bought, and the age of slaves bought. The year represents a tenth of the variability but varies alone. Thus, it seems to not have had a significant impact on slave prices.
