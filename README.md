@@ -4,7 +4,6 @@
 * [Description](#description)
 * [Dataset](#dataset)
 * [*Tentative* Analysis](#tentative-analysis)
-* [*Tentative* Interpretation](#tentative-interpretation)
 * [*Tentative* Conclusion](#tentative-conclusion)
 
 ## Description
