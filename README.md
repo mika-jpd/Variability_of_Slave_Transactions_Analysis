@@ -18,6 +18,7 @@ Link to dataset: https://corgis-edu.github.io/corgis/csv/slavery/
 
 ## *Tentative* Analysis:
 *Note: I have refrained from commenting on the signs associated to different variables in the principal components because these are completely insignificant. My code, run on another computer, could invert the signs I got because the principal components found are unique up to a sign. We can, however, comment on which variables have different signs.
+*Note #2: The following interpretations are mine.
 
 ```
 PC1: (33.6% variability)
