@@ -10,7 +10,7 @@
 ## Description
 A script that uses the Principal Component Analysis' dimension reduction to identify variability in the characteristics of New Orleans slave sales between 1856 and 1861 in the US. I wrote this script to help out a friend writing working on a history project.
 
-I have posted a more detailed PDF of this case study with visuals and explanations of my approach.
+I have posted a more detailed PDF of this case study with visuals and explanations of my approach [here](https://github.com/mika-jpd/Variability_of_Slave_Transactions_Analysis/blob/main/Case%20Study%20on%20the%20Variability%20of%20Slave%20Transactions.pdf).
 
 ## Dataset
 The dataset used details the financial records of over 16,000 New Orleans slave sales between 1856 and 1861. This dataset was first used in “Betting on Secession: Quantifying Political Events Surrounding Slavery and the Civil War.” (2016) by Calomiris, Charles W. and Jonathan Pritchett and published in American Economic Review. 
