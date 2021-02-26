@@ -16,7 +16,7 @@ The dataset used details the financial records of over 16,000 New Orleans slave 
 Link to dataset: https://corgis-edu.github.io/corgis/csv/slavery/
 
 ## *Tentative* Analysis:
-*Note: I have refrained from commenting on the signs associated to difference variables in the principal components because these are completely insignificant. My code run on another computer could give inverse signs because principal components found are unique up to a sign. We can, however, comment on which variables have inverse signs.
+*Note: I have refrained from commenting on the signs associated to different variables in the principal components because these are completely insignificant. My code, run on another computer, could invert the signs I got because the principal components found are unique up to a sign. We can, however, comment on which variables have different signs.
 
 ```
 PC1: (33.6% variability)
@@ -48,7 +48,7 @@ PC2: (25% variability)
 
 *Tentative* Interpretation:
 
-Since interest rate and discount rates measure the same thing, that both are both are identically weighted and that their arrows in the biplot point in the exact same direction makes sense. The slight negative weights associated to the number of child slaves purchased and the total number of slaves purchased makes sense since the number of slaves bought would increase as the number of child slaves are bought, we cannot make any inference about both variable’s relationships with each other and the other variables.
+Since interest rate and discount rates measure the same thing, that both are identically weighted and that their arrows in the biplot point in the exact same direction makes sense. The slight negative weights associated to the number of child slaves purchased and the total number of slaves purchased makes sense since the number of slaves bought would increase as the number of child slaves are bought. We cannot, however, make any inference about the interest rate and discount rate's relationships with the number of child slaves and  number of total slaves purchased.
 
 ```
 PC3: (13% variability explained)
@@ -63,7 +63,7 @@ PC3: (13% variability explained)
 
 *Tentative* Interpretation: 
 
-PC2 identifies an inverse correlation between price and number of child slaves purchased. While the transaction price is not significantly weighted, it further confirms our interpretation of PC1. The age variability is explained by the fact that few child slaves were sold. On average, slaves that were sold were 27 years old with a std dev of 11.4. Thus, it seems that the variability in the age of slaves sold is explained in part by the number of child slaves sold.
+PC2 identifies an inverse correlation between price and number of child slaves purchased. While the transaction price is not significantly weighted, it further confirms our interpretation of PC1. The age variability is explained by the fact that few child slaves were sold. On average, slaves that were sold were 27 years old with a std dev of 11.4. Thus, it seems that the variability in the age of slaves sold is linked in part to the number of child slaves sold.
 
 ```
 PC4: (12% variability)
@@ -73,7 +73,7 @@ PC4: (12% variability)
 
 *Tentative* Interpretation: 
 
-The dataset was taken from a paper which argued that there was not a significant correlation between the news between 1856 and 1861. In previous PCAs, the date was given little variability. However, from PCA4 we can infer that the Year was responsible for 12% of the total variability. As argued in the paper, extreme years (ie. 1860 and 1861), not monthly news had significant effects on the price of slavery as southern farmers became increasingly anxious by the possibility of a war between the North and the South. However, Principal Component Analysis seems to contest this conclusion. It shows that other variables like the number of slaves bought, the number of adults bought, and the age of slaves varied in the same way as the price. These appear to be the standard variables that drive transaction prices. The year was given little weight in PC1 in which the price was highly weighted and thus seems to vary independently of all the variables that appear to be related to the price of the transaction. 
+The dataset was taken from a paper which argued that there was not a significant correlation between the news between 1856 and 1861. In previous PCAs, the date was given little variability. However, from PCA4 we can infer that the Year was responsible for 12% of the total variability. As argued in the paper, it wasn't monthly news but extreme years (ie. 1860 and 1861) that had a significant effects on the price of slavery. The paper argues that this is explained by the fact that southern farmers became increasingly anxious by the possibility of a war as tensions escalated between the North and the South. However, Principal Component Analysis seems to contest this conclusion. It shows that other variables like the number of slaves bought, the number of adults bought, and the age of slaves varied in the same way as the price. These appear to be the standard variables that drive transaction prices. The year was given little weight in PC1 in which the price was highly weighted and thus seems to vary independently of all the variables that appear to be related to the price of the transaction. 
 
 ## *Tentative* Conclusion:
 The PCA analysis is far from conclusive but does seem to show that slave purchases prices varied in the most part due to variables such as the number bought, and the age of slaves bought. The year represents a tenth of the variability but varies alone. Thus, it seems to not have had a significant impact on slave prices.
