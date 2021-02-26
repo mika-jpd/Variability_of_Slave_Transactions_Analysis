@@ -1,5 +1,14 @@
-# Slave-Price-Analysis-with-PCA
-I script that uses the Principal Component Analysis' dimension reduction to identify the causes of slave price variability in the US.
+# Slave Price Analysis with PCA
+
+## Table of Contens
+* [Description](#description)
+* [Dataset](#dataset)
+* [*Tentative* Analysis](#tentative-analysis)
+* [*Tentative* Interpretation](#tentative-interpretation)
+* [*Tentative* Conclusion](#tentative-conclusion)
+
+##Description
+I script that uses the Principal Component Analysis' dimension reduction to identify variability in the characteristics of New Orleans slave sales between 1856 and 1861 in the US. I wrote this script to help out in a friend's history project.
 
 ## Dataset
 The dataset used details the financial records of over 16,000 New Orleans slave sales between 1856 and 1861. This dataset was first used in “Betting on Secession: Quantifying Political Events Surrounding Slavery and the Civil War.” (2016) by Calomiris, Charles W. and Jonathan Pritchett and published in American Economic Review. 
