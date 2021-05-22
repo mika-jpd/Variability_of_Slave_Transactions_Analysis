@@ -11,7 +11,7 @@ A script that uses the Principal Component Analysis' dimension reduction to iden
 
 I have posted a more detailed PDF of this case study with visuals and explanations of my approach [here](https://github.com/mika-jpd/Variability_of_Slave_Transactions_Analysis/blob/main/Case%20Study%20on%20the%20Variability%20of%20Slave%20Transactions.pdf).
 
-My R Script can be found [here](https://github.com/mika-jpd/Variability_of_Slave_Transactions_Analysis/blob/main/Case%20Study%20on%20the%20Variability%20of%20Slave%20Transactions.R)
+The R Script can be found [here](https://github.com/mika-jpd/Variability_of_Slave_Transactions_Analysis/blob/main/Case%20Study%20on%20the%20Variability%20of%20Slave%20Transactions.R)
 
 ## Dataset
 The dataset used details the financial records of over 16,000 New Orleans slave sales between 1856 and 1861. This dataset was first used in “Betting on Secession: Quantifying Political Events Surrounding Slavery and the Civil War.” (2016) by Calomiris, Charles W. and Jonathan Pritchett and published in American Economic Review. 
@@ -19,9 +19,9 @@ The dataset used details the financial records of over 16,000 New Orleans slave 
 Link to dataset: https://corgis-edu.github.io/corgis/csv/slavery/
 
 ## *Tentative* Analysis:
-*Note #1: I have refrained from commenting on the signs associated to different variables in the principal components because these are completely insignificant. My code, run on another computer, could invert the signs I got because the principal components found are unique up to a sign. We can, however, comment on which variables have different signs.*
+*Note #1: I have refrained from commenting on the signs associated to different variables in the principal components because these are completely insignificant. The code, run on another computer, could invert the signs because the principal components found are unique up to a sign. We can, however, comment on which variables have different signs.*
 
-*Note #2: The following interpretations are mine.*
+*Note #2: The following interpretations are mine and my group's.*
 
 ```
 PC1: (33.6% variability)
